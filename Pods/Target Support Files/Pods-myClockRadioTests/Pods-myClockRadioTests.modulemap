@@ -1,0 +1,6 @@
+framework module Pods_myClockRadioTests {
+  umbrella header "Pods-myClockRadioTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

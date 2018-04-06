@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2AAA99A65CF71AEBA6C9E3 /* Pods_myClockRadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AD98FE9CB88F860A2F7040 /* Pods_myClockRadioUITests.framework */; };
+		D3E0C8A6CBE2676E5445101B /* Pods_myClockRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6253B08984720B51FFAB42FE /* Pods_myClockRadio.framework */; };
 		E81FA3A42078006D00AB4053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A32078006D00AB4053 /* AppDelegate.swift */; };
 		E81FA3A62078006D00AB4053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A52078006D00AB4053 /* ViewController.swift */; };
 		E81FA3A92078006D00AB4053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3A72078006D00AB4053 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		E81FA3B92078006F00AB4053 /* myClockRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3B82078006F00AB4053 /* myClockRadioTests.swift */; };
 		E81FA3C42078006F00AB4053 /* myClockRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */; };
 		E81FA3D22078038A00AB4053 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3D12078038A00AB4053 /* Podfile */; };
+		FE5FD9F050F1F82EB59C4754 /* Pods_myClockRadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05971B766901B72D077A27DD /* Pods_myClockRadioTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05971B766901B72D077A27DD /* Pods_myClockRadioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myClockRadioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BFBD6B0900520568CC9D95 /* Pods-myClockRadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadioTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadioTests/Pods-myClockRadioTests.release.xcconfig"; sourceTree = "<group>"; };
+		6253B08984720B51FFAB42FE /* Pods_myClockRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myClockRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B30FB19A817367530D1EF7B /* Pods-myClockRadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadioTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadioTests/Pods-myClockRadioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81470F1FA8D73F53CAB99FE9 /* Pods-myClockRadioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadioUITests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadioUITests/Pods-myClockRadioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		848AF571D3C3768DE2B9E91C /* Pods-myClockRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadio.release.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadio/Pods-myClockRadio.release.xcconfig"; sourceTree = "<group>"; };
+		90AD98FE9CB88F860A2F7040 /* Pods_myClockRadioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myClockRadioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9389934DFA758163B54AB230 /* Pods-myClockRadioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadioUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadioUITests/Pods-myClockRadioUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E81FA3A02078006D00AB4053 /* myClockRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myClockRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81FA3A32078006D00AB4053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E81FA3A52078006D00AB4053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myClockRadioUITests.swift; sourceTree = "<group>"; };
 		E81FA3C52078006F00AB4053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81FA3D12078038A00AB4053 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		FE90730642D34F3B23116F3A /* Pods-myClockRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadio.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadio/Pods-myClockRadio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E0C8A6CBE2676E5445101B /* Pods_myClockRadio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5FD9F050F1F82EB59C4754 /* Pods_myClockRadioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2AAA99A65CF71AEBA6C9E3 /* Pods_myClockRadioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BBA198053583B204E223F85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE90730642D34F3B23116F3A /* Pods-myClockRadio.debug.xcconfig */,
+				848AF571D3C3768DE2B9E91C /* Pods-myClockRadio.release.xcconfig */,
+				7B30FB19A817367530D1EF7B /* Pods-myClockRadioTests.debug.xcconfig */,
+				27BFBD6B0900520568CC9D95 /* Pods-myClockRadioTests.release.xcconfig */,
+				81470F1FA8D73F53CAB99FE9 /* Pods-myClockRadioUITests.debug.xcconfig */,
+				9389934DFA758163B54AB230 /* Pods-myClockRadioUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90ACE888F673E7424AB2FB6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6253B08984720B51FFAB42FE /* Pods_myClockRadio.framework */,
+				05971B766901B72D077A27DD /* Pods_myClockRadioTests.framework */,
+				90AD98FE9CB88F860A2F7040 /* Pods_myClockRadioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E81FA3972078006D00AB4053 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +122,8 @@
 				E81FA3B72078006F00AB4053 /* myClockRadioTests */,
 				E81FA3C22078006F00AB4053 /* myClockRadioUITests */,
 				E81FA3A12078006D00AB4053 /* Products */,
+				0BBA198053583B204E223F85 /* Pods */,
+				90ACE888F673E7424AB2FB6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E81FA3C82078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadio" */;
 			buildPhases = (
+				649BACC6E9F7F64F2E8D7DA6 /* [CP] Check Pods Manifest.lock */,
 				E81FA39C2078006D00AB4053 /* Sources */,
 				E81FA39D2078006D00AB4053 /* Frameworks */,
 				E81FA39E2078006D00AB4053 /* Resources */,
+				39EC94BEE1ED6B1CB532C5D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E81FA3CB2078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadioTests" */;
 			buildPhases = (
+				090E5B5B2295164BCC5A8813 /* [CP] Check Pods Manifest.lock */,
 				E81FA3B02078006F00AB4053 /* Sources */,
 				E81FA3B12078006F00AB4053 /* Frameworks */,
 				E81FA3B22078006F00AB4053 /* Resources */,
+				F250D4C40008D7B5B749C5B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E81FA3CE2078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadioUITests" */;
 			buildPhases = (
+				C86E359D5AF22D06C1159226 /* [CP] Check Pods Manifest.lock */,
 				E81FA3BB2078006F00AB4053 /* Sources */,
 				E81FA3BC2078006F00AB4053 /* Frameworks */,
 				E81FA3BD2078006F00AB4053 /* Resources */,
+				0906E03ADAC2BB180D0FA6F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +300,121 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0906E03ADAC2BB180D0FA6F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-myClockRadioUITests/Pods-myClockRadioUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-myClockRadioUITests/Pods-myClockRadioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		090E5B5B2295164BCC5A8813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myClockRadioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EC94BEE1ED6B1CB532C5D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-myClockRadio/Pods-myClockRadio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-myClockRadio/Pods-myClockRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649BACC6E9F7F64F2E8D7DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myClockRadio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86E359D5AF22D06C1159226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myClockRadioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F250D4C40008D7B5B749C5B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-myClockRadioTests/Pods-myClockRadioTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-myClockRadioTests/Pods-myClockRadioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E81FA39C2078006D00AB4053 /* Sources */ = {
@@ -432,15 +593,13 @@
 		};
 		E81FA3C92078006F00AB4053 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE90730642D34F3B23116F3A /* Pods-myClockRadio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -450,15 +609,13 @@
 		};
 		E81FA3CA2078006F00AB4053 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848AF571D3C3768DE2B9E91C /* Pods-myClockRadio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -468,17 +625,14 @@
 		};
 		E81FA3CC2078006F00AB4053 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B30FB19A817367530D1EF7B /* Pods-myClockRadioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -489,17 +643,14 @@
 		};
 		E81FA3CD2078006F00AB4053 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BFBD6B0900520568CC9D95 /* Pods-myClockRadioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -510,16 +661,13 @@
 		};
 		E81FA3CF2078006F00AB4053 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81470F1FA8D73F53CAB99FE9 /* Pods-myClockRadioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -530,16 +678,13 @@
 		};
 		E81FA3D02078006F00AB4053 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9389934DFA758163B54AB230 /* Pods-myClockRadioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

@@ -1,0 +1,6 @@
+framework module Pods_myClockRadio {
+  umbrella header "Pods-myClockRadio-umbrella.h"
+
+  export *
+  module * { export * }
+}
