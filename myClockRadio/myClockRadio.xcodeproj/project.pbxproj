@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81FA3A42078006D00AB4053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A32078006D00AB4053 /* AppDelegate.swift */; };
+		E81FA3A62078006D00AB4053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A52078006D00AB4053 /* ViewController.swift */; };
+		E81FA3A92078006D00AB4053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3A72078006D00AB4053 /* Main.storyboard */; };
+		E81FA3AB2078006F00AB4053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3AA2078006F00AB4053 /* Assets.xcassets */; };
+		E81FA3AE2078006F00AB4053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3AC2078006F00AB4053 /* LaunchScreen.storyboard */; };
+		E81FA3B92078006F00AB4053 /* myClockRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3B82078006F00AB4053 /* myClockRadioTests.swift */; };
+		E81FA3C42078006F00AB4053 /* myClockRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */; };
+		E81FA3D22078038A00AB4053 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3D12078038A00AB4053 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E81FA3B52078006F00AB4053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81FA3982078006D00AB4053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81FA39F2078006D00AB4053;
+			remoteInfo = myClockRadio;
+		};
+		E81FA3C02078006F00AB4053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81FA3982078006D00AB4053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E81FA39F2078006D00AB4053;
+			remoteInfo = myClockRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E81FA3A02078006D00AB4053 /* myClockRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myClockRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81FA3A32078006D00AB4053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E81FA3A52078006D00AB4053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E81FA3A82078006D00AB4053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E81FA3AA2078006F00AB4053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E81FA3AD2078006F00AB4053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E81FA3AF2078006F00AB4053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81FA3B42078006F00AB4053 /* myClockRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myClockRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81FA3B82078006F00AB4053 /* myClockRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myClockRadioTests.swift; sourceTree = "<group>"; };
+		E81FA3BA2078006F00AB4053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81FA3BF2078006F00AB4053 /* myClockRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myClockRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myClockRadioUITests.swift; sourceTree = "<group>"; };
+		E81FA3C52078006F00AB4053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81FA3D12078038A00AB4053 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E81FA39D2078006D00AB4053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA3B12078006F00AB4053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA3BC2078006F00AB4053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81FA3972078006D00AB4053 = {
+			isa = PBXGroup;
+			children = (
+				E81FA3D12078038A00AB4053 /* Podfile */,
+				E81FA3A22078006D00AB4053 /* myClockRadio */,
+				E81FA3B72078006F00AB4053 /* myClockRadioTests */,
+				E81FA3C22078006F00AB4053 /* myClockRadioUITests */,
+				E81FA3A12078006D00AB4053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E81FA3A12078006D00AB4053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E81FA3A02078006D00AB4053 /* myClockRadio.app */,
+				E81FA3B42078006F00AB4053 /* myClockRadioTests.xctest */,
+				E81FA3BF2078006F00AB4053 /* myClockRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E81FA3A22078006D00AB4053 /* myClockRadio */ = {
+			isa = PBXGroup;
+			children = (
+				E81FA3A32078006D00AB4053 /* AppDelegate.swift */,
+				E81FA3A52078006D00AB4053 /* ViewController.swift */,
+				E81FA3A72078006D00AB4053 /* Main.storyboard */,
+				E81FA3AA2078006F00AB4053 /* Assets.xcassets */,
+				E81FA3AC2078006F00AB4053 /* LaunchScreen.storyboard */,
+				E81FA3AF2078006F00AB4053 /* Info.plist */,
+			);
+			path = myClockRadio;
+			sourceTree = "<group>";
+		};
+		E81FA3B72078006F00AB4053 /* myClockRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				E81FA3B82078006F00AB4053 /* myClockRadioTests.swift */,
+				E81FA3BA2078006F00AB4053 /* Info.plist */,
+			);
+			path = myClockRadioTests;
+			sourceTree = "<group>";
+		};
+		E81FA3C22078006F00AB4053 /* myClockRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */,
+				E81FA3C52078006F00AB4053 /* Info.plist */,
+			);
+			path = myClockRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81FA39F2078006D00AB4053 /* myClockRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81FA3C82078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadio" */;
+			buildPhases = (
+				E81FA39C2078006D00AB4053 /* Sources */,
+				E81FA39D2078006D00AB4053 /* Frameworks */,
+				E81FA39E2078006D00AB4053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myClockRadio;
+			productName = myClockRadio;
+			productReference = E81FA3A02078006D00AB4053 /* myClockRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E81FA3B32078006F00AB4053 /* myClockRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81FA3CB2078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadioTests" */;
+			buildPhases = (
+				E81FA3B02078006F00AB4053 /* Sources */,
+				E81FA3B12078006F00AB4053 /* Frameworks */,
+				E81FA3B22078006F00AB4053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81FA3B62078006F00AB4053 /* PBXTargetDependency */,
+			);
+			name = myClockRadioTests;
+			productName = myClockRadioTests;
+			productReference = E81FA3B42078006F00AB4053 /* myClockRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E81FA3BE2078006F00AB4053 /* myClockRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81FA3CE2078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadioUITests" */;
+			buildPhases = (
+				E81FA3BB2078006F00AB4053 /* Sources */,
+				E81FA3BC2078006F00AB4053 /* Frameworks */,
+				E81FA3BD2078006F00AB4053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E81FA3C12078006F00AB4053 /* PBXTargetDependency */,
+			);
+			name = myClockRadioUITests;
+			productName = myClockRadioUITests;
+			productReference = E81FA3BF2078006F00AB4053 /* myClockRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81FA3982078006D00AB4053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Andre Heß";
+				TargetAttributes = {
+					E81FA39F2078006D00AB4053 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E81FA3B32078006F00AB4053 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E81FA39F2078006D00AB4053;
+					};
+					E81FA3BE2078006F00AB4053 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E81FA39F2078006D00AB4053;
+					};
+				};
+			};
+			buildConfigurationList = E81FA39B2078006D00AB4053 /* Build configuration list for PBXProject "myClockRadio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E81FA3972078006D00AB4053;
+			productRefGroup = E81FA3A12078006D00AB4053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E81FA39F2078006D00AB4053 /* myClockRadio */,
+				E81FA3B32078006F00AB4053 /* myClockRadioTests */,
+				E81FA3BE2078006F00AB4053 /* myClockRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E81FA39E2078006D00AB4053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FA3AE2078006F00AB4053 /* LaunchScreen.storyboard in Resources */,
+				E81FA3AB2078006F00AB4053 /* Assets.xcassets in Resources */,
+				E81FA3D22078038A00AB4053 /* Podfile in Resources */,
+				E81FA3A92078006D00AB4053 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA3B22078006F00AB4053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA3BD2078006F00AB4053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81FA39C2078006D00AB4053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FA3A62078006D00AB4053 /* ViewController.swift in Sources */,
+				E81FA3A42078006D00AB4053 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA3B02078006F00AB4053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FA3B92078006F00AB4053 /* myClockRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81FA3BB2078006F00AB4053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81FA3C42078006F00AB4053 /* myClockRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E81FA3B62078006F00AB4053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81FA39F2078006D00AB4053 /* myClockRadio */;
+			targetProxy = E81FA3B52078006F00AB4053 /* PBXContainerItemProxy */;
+		};
+		E81FA3C12078006F00AB4053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E81FA39F2078006D00AB4053 /* myClockRadio */;
+			targetProxy = E81FA3C02078006F00AB4053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E81FA3A72078006D00AB4053 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81FA3A82078006D00AB4053 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E81FA3AC2078006F00AB4053 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E81FA3AD2078006F00AB4053 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E81FA3C62078006F00AB4053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E81FA3C72078006F00AB4053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E81FA3C92078006F00AB4053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSYGY3245J;
+				INFOPLIST_FILE = myClockRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E81FA3CA2078006F00AB4053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSYGY3245J;
+				INFOPLIST_FILE = myClockRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E81FA3CC2078006F00AB4053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSYGY3245J;
+				INFOPLIST_FILE = myClockRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myClockRadio.app/myClockRadio";
+			};
+			name = Debug;
+		};
+		E81FA3CD2078006F00AB4053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSYGY3245J;
+				INFOPLIST_FILE = myClockRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myClockRadio.app/myClockRadio";
+			};
+			name = Release;
+		};
+		E81FA3CF2078006F00AB4053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSYGY3245J;
+				INFOPLIST_FILE = myClockRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myClockRadio;
+			};
+			name = Debug;
+		};
+		E81FA3D02078006F00AB4053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BSYGY3245J;
+				INFOPLIST_FILE = myClockRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myClockRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E81FA39B2078006D00AB4053 /* Build configuration list for PBXProject "myClockRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FA3C62078006F00AB4053 /* Debug */,
+				E81FA3C72078006F00AB4053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81FA3C82078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FA3C92078006F00AB4053 /* Debug */,
+				E81FA3CA2078006F00AB4053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81FA3CB2078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FA3CC2078006F00AB4053 /* Debug */,
+				E81FA3CD2078006F00AB4053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81FA3CE2078006F00AB4053 /* Build configuration list for PBXNativeTarget "myClockRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81FA3CF2078006F00AB4053 /* Debug */,
+				E81FA3D02078006F00AB4053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E81FA3982078006D00AB4053 /* Project object */;
+}
