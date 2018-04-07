@@ -10,13 +10,17 @@
 		8F2AAA99A65CF71AEBA6C9E3 /* Pods_myClockRadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AD98FE9CB88F860A2F7040 /* Pods_myClockRadioUITests.framework */; };
 		D3E0C8A6CBE2676E5445101B /* Pods_myClockRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6253B08984720B51FFAB42FE /* Pods_myClockRadio.framework */; };
 		E81FA3A42078006D00AB4053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A32078006D00AB4053 /* AppDelegate.swift */; };
-		E81FA3A62078006D00AB4053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A52078006D00AB4053 /* ViewController.swift */; };
+		E81FA3A62078006D00AB4053 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3A52078006D00AB4053 /* MainViewController.swift */; };
 		E81FA3A92078006D00AB4053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3A72078006D00AB4053 /* Main.storyboard */; };
 		E81FA3AB2078006F00AB4053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3AA2078006F00AB4053 /* Assets.xcassets */; };
 		E81FA3AE2078006F00AB4053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3AC2078006F00AB4053 /* LaunchScreen.storyboard */; };
 		E81FA3B92078006F00AB4053 /* myClockRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3B82078006F00AB4053 /* myClockRadioTests.swift */; };
 		E81FA3C42078006F00AB4053 /* myClockRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */; };
 		E81FA3D22078038A00AB4053 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E81FA3D12078038A00AB4053 /* Podfile */; };
+		E8746993207807B40063409E /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8746992207807B40063409E /* Station.swift */; };
+		E8746995207807F00063409E /* StationTuneinDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8746994207807F00063409E /* StationTuneinDetails.swift */; };
+		E8746997207808050063409E /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8746996207808050063409E /* Sound.swift */; };
+		E874699920780E320063409E /* AllKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874699820780E320063409E /* AllKeys.swift */; };
 		FE5FD9F050F1F82EB59C4754 /* Pods_myClockRadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05971B766901B72D077A27DD /* Pods_myClockRadioTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +52,7 @@
 		9389934DFA758163B54AB230 /* Pods-myClockRadioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadioUITests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadioUITests/Pods-myClockRadioUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E81FA3A02078006D00AB4053 /* myClockRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myClockRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81FA3A32078006D00AB4053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E81FA3A52078006D00AB4053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E81FA3A52078006D00AB4053 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E81FA3A82078006D00AB4053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E81FA3AA2078006F00AB4053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E81FA3AD2078006F00AB4053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,10 @@
 		E81FA3C32078006F00AB4053 /* myClockRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myClockRadioUITests.swift; sourceTree = "<group>"; };
 		E81FA3C52078006F00AB4053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E81FA3D12078038A00AB4053 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		E8746992207807B40063409E /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		E8746994207807F00063409E /* StationTuneinDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTuneinDetails.swift; sourceTree = "<group>"; };
+		E8746996207808050063409E /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		E874699820780E320063409E /* AllKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllKeys.swift; sourceTree = "<group>"; };
 		FE90730642D34F3B23116F3A /* Pods-myClockRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myClockRadio.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-myClockRadio/Pods-myClockRadio.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,9 +148,9 @@
 		E81FA3A22078006D00AB4053 /* myClockRadio */ = {
 			isa = PBXGroup;
 			children = (
+				E8746991207807870063409E /* Model */,
+				E8746990207805560063409E /* Main */,
 				E81FA3A32078006D00AB4053 /* AppDelegate.swift */,
-				E81FA3A52078006D00AB4053 /* ViewController.swift */,
-				E81FA3A72078006D00AB4053 /* Main.storyboard */,
 				E81FA3AA2078006F00AB4053 /* Assets.xcassets */,
 				E81FA3AC2078006F00AB4053 /* LaunchScreen.storyboard */,
 				E81FA3AF2078006F00AB4053 /* Info.plist */,
@@ -166,6 +174,26 @@
 				E81FA3C52078006F00AB4053 /* Info.plist */,
 			);
 			path = myClockRadioUITests;
+			sourceTree = "<group>";
+		};
+		E8746990207805560063409E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E874699820780E320063409E /* AllKeys.swift */,
+				E81FA3A52078006D00AB4053 /* MainViewController.swift */,
+				E81FA3A72078006D00AB4053 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E8746991207807870063409E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8746992207807B40063409E /* Station.swift */,
+				E8746994207807F00063409E /* StationTuneinDetails.swift */,
+				E8746996207808050063409E /* Sound.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,7 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81FA3A62078006D00AB4053 /* ViewController.swift in Sources */,
+				E8746997207808050063409E /* Sound.swift in Sources */,
+				E8746995207807F00063409E /* StationTuneinDetails.swift in Sources */,
+				E81FA3A62078006D00AB4053 /* MainViewController.swift in Sources */,
+				E874699920780E320063409E /* AllKeys.swift in Sources */,
+				E8746993207807B40063409E /* Station.swift in Sources */,
 				E81FA3A42078006D00AB4053 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,7 +631,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -615,7 +650,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -632,7 +670,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -650,7 +692,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -667,7 +713,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -684,7 +734,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BSYGY3245J;
 				INFOPLIST_FILE = myClockRadioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.atHome.myClockRadioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
